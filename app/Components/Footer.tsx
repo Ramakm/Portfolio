@@ -63,7 +63,6 @@ const Footer = () => {
       <div className="mt-12 text-center">
         <p className="text-gray-700 mb-2">Follow</p>
         <div className="flex justify-center gap-4">
-          <a href="#" className="text-gray-700 hover:text-gray-900 text-2xl"><FaDribbble /></a>
           <a href="https://instagram.com/techwith.ram" className="text-gray-700 hover:text-gray-900 text-2xl"><FaInstagram /></a>
           <a href="https://x.com/codewith_ram" className="text-gray-700 hover:text-gray-900 text-2xl"><FaTwitter /></a>
           <a href="https://linkedin.com/in/ramakrushnamohapatra" className="text-gray-700 hover:text-gray-900 text-2xl"><FaLinkedin /></a>
