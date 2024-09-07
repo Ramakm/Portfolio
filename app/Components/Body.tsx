@@ -72,15 +72,18 @@ const Body = () => {
       <div className="overflow-hidden relative mt-4">
         <div className="flex animate-marquee">
           {[
+            "python-svgrepo-com.svg",
+            "sql-database-sql-azure-svgrepo-com.svg",
+            "powerbi-svgrepo-com.svg",
+            "selenium-svgrepo-com.svg",
+            "linux-svgrepo-com.svg",
             "js.svg",
             "ts.svg",
             "cpp.svg",
             "react.svg",
-            "angular.svg",
             "node.svg",
             "mongo.svg",
             "redis.svg",
-            "kafka.svg",
             "docker.svg",
             "git.svg",
             "aws.svg",
