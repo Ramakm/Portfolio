@@ -18,13 +18,17 @@ const Header = () => {
 
       <div className="md:w-1/2 relative flex items-center justify-center">
         <div className="bg-pink-300 rounded-3xl p-4 relative flex flex-col items-center">
-          <Image
-            src="/Ram.png"
-            alt="Ramakrushna"
-            width={400}
-            height={400}
-            className="rounded-2xl mb-4"
-          />
+          <div className="image-container">
+            <Image
+              src="/Ram.png"
+              alt="Ramakrushna"
+              width={400}
+              height={400}
+              className="rounded-2xl mb-4"
+              objectFit="cover"
+              objectPosition="center"
+            />
+          </div>
           <div className="absolute top-0 right-0 bg-blue-300 text-white px-3 py-1 rounded-full -mt-2 -mr-2">
             Ramakrushna
           </div>
