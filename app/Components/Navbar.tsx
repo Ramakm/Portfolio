@@ -2,15 +2,18 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className="h-16 px-4 bg-slate-50 flex flex-row-reverse items-center justify-between sticky top-0 shadow-md opacity-75">
+    <div className="h-16 px-4 bg-slate-50 flex items-center justify-between sticky top-0 shadow-md opacity-75">
       {/* Logo with home link */}
       <div className="flex items-center">
-        <Link href="/" className="text-2xl font-bold text-blue-600 hover:text-blue-800 transition-colors duration-300">
+        <Link
+          href="/"
+          className="text-2xl font-bold text-blue-600 hover:text-blue-800 transition-colors duration-300"
+        >
           Ramakrushna
         </Link>
       </div>
 
-      <div className="flex items-center space-x-4">
+      <div className="flex items-center space-x-2 md:space-x-4">
         <div className="w-8 cursor-pointer">
           <Link href="https://github.com/abhishekp6" target="_blank">
             <svg
