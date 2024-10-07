@@ -28,7 +28,7 @@ const Navbar = () => {
         </div>
         <div className="cursor-pointer group">
           <Link
-            href="https://medium.com/@codewithram"
+            href="https://medium.com/@techwithram"
             target="_blank"
             className="hover:text-blue-600 transition-colors duration-300"
           >
